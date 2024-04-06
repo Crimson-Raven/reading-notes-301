@@ -22,7 +22,6 @@ and access for global information about various objects and services.
 
 
 ### Distinguish which layers are the “hardware layers”, and which layers are the “software layers”. What does that even mean?
-
 Lower Layers (Hardware-Centric):
 Physical Layer (Layer 1): This layer deals with the physical transmission of data, like cables, connectors, and network cards. It's primarily hardware-based.
 Data Link Layer (Layer 2): This layer manages data transmission on a physical link, using hardware like network adapters for error detection and addressing. However, it also relies on software protocols for data framing.
@@ -35,20 +34,16 @@ Presentation Layer (Layer 6): This layer deals with data format presentation and
 Application Layer (Layer 7): This layer provides network services to applications. It's purely software-based, with protocols like HTTP, FTP, and SMTP.
 
 ### How can the OSI model be used in troubleshooting?
-
 Even though some layers lean more towards hardware or software, they work together. Hardware components like network cards and routers rely on software protocols to function effectively within the OSI framework. This layered approach ensures clear communication between devices and software applications regardless of the underlying hardware specifics.
 
 
 ### What is Wireshark?
-
 Wireshark is a free and open-source network protocol analyzer. It's essentially a tool that captures and analyzes the data flowing across a network connection. Think of it like a microscope for your network traffic.
 
 ### What is a packet?
-
 A packet refers to a single, self-contained unit of data that travels across a network. You can think of it as an envelope carrying information between devices on a network.
 
 ### What 3 high-level things does Wireshark accomplish? How could these be used for nefarious purposes? For benevolent purposes?
-
 Network Traffic Capture: Wireshark can capture all the data flowing across a specific network connection. Imagine it as eavesdropping on a conversation, but instead of voices, it's capturing digital information packets.
 
 Packet Decoding and Analysis:  Once captured, Wireshark can break down these data packets and analyze their content. It reveals details like sender, receiver, protocols used (like TCP/IP), and potentially the data itself (though often encrypted).

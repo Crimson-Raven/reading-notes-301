@@ -7,12 +7,15 @@ Imagine your computer is a cool clubhouse! You and your friends use different do
 One door (port) might be for movie nights (video streaming program).
 Another door (port) might be for video games (gaming programs).
 These special doors, with fun names like "movie door" or "game door" in your head, are actually ports. They help your computer know which program to send the information to, just like you wouldn't use the movie door to enter a game night.
+
 ### What does a port scanner send to a port to check the current status?
 A port scanner sends a packet of network data to a port to check the current status.
+
 ### When a port scanner sends a request to connect, what are the three possible responses? Describe them.
 Open, Accepted - This means the port is open and there's a program listening and ready to receive information.
 Closed, Not Listening - The computer acknowledges the request but lets the scanner know there's no program actively using that port right now.
 Filtered, Dropped, Blocked - The request is received but this leads to no messages or response. This could be because of a firewall blocking the scanner's attempt to connect, making it hard to tell if the port is open or closed.
+
 ### What is the difference between TCP and UDP?
 TCP and UDP are the two most common protocols in use for Internet Protocol (IP) networks. UDP scans are slower than TCP scans. 
 TCP (Reliable): TCP sends each packet in order, complete with error checking, verification, and a 3-way handshake to confirm each packet is successful. Perfect for important messages where everything needs to be correct (like downloading files or sending emails).
